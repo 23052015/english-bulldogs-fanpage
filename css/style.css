@@ -13,16 +13,29 @@
     
    }
 
-   section > h3 {
-
-    text-align: right;
-    color: #533325; 
-    
-
-}
-
-h2 {
+section > h2 {
     font-family: Roboto, sans-serif;
+    font-size: 25px;
     color: #533325;
-    text-align: left;
+    text-align: center left;
+    max-width: 500px;
+
 }
+
+.navigation-list {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    text-align: center;
+
+ }   
+
+ .navigation-list > li {
+    display: inline-block;
+    padding: 90px;
+    color:#533325
+ }
+
+ .active {
+    background-color: #a38b80;
+ }
