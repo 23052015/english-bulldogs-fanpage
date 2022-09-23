@@ -1,23 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
 
 
-
+body {
+   color: #ebd89c;
+   background-color: #ebd89c;
+   font-family: Condensed, sans-serif
+}
 
 #main-image {
 
     height: 600px;
     width: 100%;
     background: url('../images/Bulldog1.jpg') no-repeat right;
+    opacity: 0,8;
     
 
     
    }
 
+#header {
+
+   background-color: #5a3320;
+   margin: 0;
+   padding: 0;
+   border: 0;
+
+}
+
 section > h2 {
     font-family: Roboto, sans-serif;
     font-size: 25px;
-    color: #533325;
-    text-align: center left;
+    color: #5a3320;
+    text-align: center;
     max-width: 500px;
 
 }
@@ -33,9 +47,25 @@ section > h2 {
  .navigation-list > li {
     display: inline-block;
     padding: 90px;
-    color:#533325
+    
+    
  }
 
- .active {
-    background-color: #a38b80;
- }
+
+
+a {
+   color: #ebd89c;
+   text-decoration: none;
+}
+
+.active {
+   
+   border-bottom:  #ebd89c;
+     
+  }
+
+a:hover {
+
+  border: 2px solid #ebd89c; 
+
+}
