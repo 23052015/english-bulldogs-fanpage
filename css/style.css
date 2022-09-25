@@ -111,5 +111,19 @@ a:hover {
    margin-top: 100px;
 }
 
+#love ul {
+   list-style-type: none;
+}
 
+h3 {
+   font-size: 25px;
+   
+}
+
+.section2-list {
+
+   max-width: 33%;
+   margin: 0 auto;
+   display: inline-block;
+}
 
