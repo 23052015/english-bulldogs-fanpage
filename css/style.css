@@ -4,68 +4,88 @@
 body {
    color: #ebd89c;
    background-color: #ebd89c;
-   font-family: Condensed, sans-serif
+   font-family: Condensed, sans-serif;
+   margin: 0;
 }
 
-#main-image {
-
-    height: 600px;
-    width: 100%;
-    background: url('../images/Bulldog1.jpg') no-repeat right;
-    opacity: 0,8;
-    
-
-    
-   }
+/* Header and Navigation */
 
 #header {
-
+   height: 100%;
+   width: 100%;
    background-color: #5a3320;
-   margin: 0;
-   padding: 0;
-   border: 0;
-
-}
-
-section > h2 {
-    font-family: Roboto, sans-serif;
-    font-size: 25px;
-    color: #5a3320;
-    text-align: center;
-    max-width: 500px;
-
+   
+   
 }
 
 .navigation-list {
-    font-family: Roboto, sans-serif;
-    font-size: 20px;
-    list-style-type: none;
-    text-align: center;
+   font-family: Roboto, sans-serif;
+   font-size: 20px;
+   list-style-type: none;
+   text-align: center;
 
- }   
+}   
 
- .navigation-list > li {
-    display: inline-block;
-    padding: 90px;
-    
-    
- }
+.navigation-list > li {
+   display: inline-block;
+   padding: 90px;
+   
+   
+}
 
 
 
 a {
-   color: #ebd89c;
-   text-decoration: none;
+  color: #ebd89c;
+  text-decoration: none;
 }
 
 .active {
-   
-   border-bottom:  #ebd89c;
-     
-  }
+  
+  border-bottom:  #ebd89c;
+    
+ }
 
 a:hover {
 
-  border: 2px solid #ebd89c; 
+ border: 2px solid #ebd89c; 
 
+} 
+
+/* Section 1 */
+
+
+#main-image {
+
+    height: 800px;
+    width: 800px;
+    float: right;
+    margin-right: 250px;
+    border-radius: 50%;
+    display: inline block;
+
+    
+    
 }
+
+
+
+#section1-h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+    text-transform: uppercase;
+    max-width: 400px;
+    margin-left: 200px;
+    display: inline block;
+   }
+
+
+   #paw {
+      height: 300px;
+      width: 300px;
+      margin-left: 200px;
+
+   }
