@@ -2,10 +2,11 @@
 
 
 body {
-   color: #ebd89c;
-   background-color: #ebd89c;
-   font-family: Condensed, sans-serif;
+
+   font-family: Roboto, sans-serif;
    margin: 0;
+   padding: 0;
+   border: 0;
    
    
 }
@@ -16,25 +17,38 @@ body {
    height: 200px;
    width: 100%;
    background-color: #5a3320;
-   margin-top: 0;
+   margin-top: 0 auto;
+
+}
   
+#paw {
+      height: 90px;
+      width: 90px;
+      margin: 40px;
+      display: inline-block;
+      
+   }
    
-   
+nav {
+   height: 190px;
+   width: 100%;
+
 }
 
 .navigation-list {
-   font-family: Roboto, sans-serif;
+   font-family: Condensed, sans-serif;
    font-size: 20px;
    list-style-type: none;
    text-align: center;
-   margin-top: 0;
+   margin-top: 0 auto;
 
 }   
 
 .navigation-list > li {
+
    display: inline-block;
-   padding:90px; 
-   margin-top: 0 auto;
+   padding: 90px; 
+   margin-top: 0;
    
    
 }
@@ -42,19 +56,19 @@ body {
 
 
 a {
-  color: #ebd89c;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .active {
   
-  border-bottom:  #ebd89c;
+  border-bottom:  #ffffff;
     
  }
 
 a:hover {
 
- border: 2px solid #ebd89c; 
+ border: 2px solid #ffffff; 
 
 } 
 
@@ -63,25 +77,24 @@ a:hover {
 #section1 {
    max-height: 600px;
    width: 100%;
+   margin: 20px;
 
 }
 
 #main-image {
 
     height: 600px;
-    width: 500px;
+    width: 600px;
     float: right;
     margin-right: 250px;
-    border-radius: 50%;
+    
 }
     
 
-    
-    
 
 
 #section1 > h1 {
-    font-family: Roboto, sans-serif;
+    font-family: Condensed, sans-serif;
     font-size: 50px;
     font-weight: 600;
     color: #000000;
@@ -93,14 +106,14 @@ a:hover {
    }
 
 
-   #paw {
-      height: 300px;
-      width: 300px;
-      margin-left: 200px;
-
-   }
-
    /* Section 2*/
+
+.section2 {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
 
 #love {
 
@@ -113,17 +126,65 @@ a:hover {
 
 #love ul {
    list-style-type: none;
+   margin: 50px;
+   padding: 20px;
+
+   
 }
 
-h3 {
-   font-size: 25px;
+h2 {
+   width: 100%;
+   font-family: Condensed, sans-serif;
+   font-size: 40px;
+   text-align: center;
+   padding: 100px 0 70px 0;
+   text-transform: uppercase;
    
+   
+}
+h3 {
+   width: 50%;
+   font-size: 35px;
+   text-align: left;
+   font-family: Condensed, sans-serif;
+   text-transform: capitalize;
+   
+
 }
 
 .section2-list {
 
-   max-width: 33%;
-   margin: 0 auto;
+   width: 33%;
    display: inline-block;
+  
 }
 
+.section2-p {
+
+   font-size: 25px;
+   text-align: left;
+   width: 80%;
+   
+}
+
+/*footer*/
+/*This code is borrowed from "love running" project protfolio*/
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #000000;
+}
