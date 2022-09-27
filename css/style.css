@@ -3,6 +3,7 @@
 
 body {
 
+   color: #000000;
    font-family: Roboto, sans-serif;
    margin: 0;
    padding: 0;
@@ -14,39 +15,61 @@ body {
 /* Header and Navigation */
 
 #header {
+   
    height: 200px;
    width: 100%;
    background-color: #794830;
-   margin-top: 0;
-   padding-top: 0;
-
+   
 }
-  
+
+ h1 {
+   font-family: Condensed, sans-serif;
+   font-size: 50px;
+   font-weight: 600;
+   color: #ffffff;
+   text-align: left;
+   text-transform: uppercase;
+   position: absolute;
+   top: 40px;
+   left: 50px;
+   
+   
+ }
+      
+   
+
 .navigation-list {
-   height: 190px;
+   width: 100%;
    font-family: Condensed, sans-serif;
    font-size: 20px;
    list-style-type: none;
-   text-align: center;
-   margin-top: 0;
+   position: absolute;
+   top: 70px;
+   width: 100%;
+   text-align: right;
+   
+   
 
 }   
 
 .navigation-list > li {
 
    display: inline-block;
-   padding: 90px; 
-   margin-top: 0;
+   padding-right: 80px;
    
+ 
    
+
    
-}
+   }
 
 
 
 a {
   color: #ffffff;
   text-decoration: none;
+  
+  
 }
 
 .active {
@@ -72,53 +95,54 @@ a:hover {
 
 .cover-image1 {
 
-    height: 500px;
+    height: auto;
     width: 500px;
-    margin-left: 80px;
+    margin-left: 100px;
     margin-top: 50px;
     display: inline-block;
+    transition: .2s;
     
-    
-    
+}
+
+.cover-image1:hover {
+
+   transform: scale(1.2);
 }
  
 .cover-image2 {
 
-   height: 500px;
+   height: auto;
    width: 500px;
-   margin-left: 80px;
+   margin-left: 100px;
    margin-top: 50px;
    display: inline-block;
+   transition: .2s;
    
    
 }
+
+.cover-image2:hover {
+
+   transform: scale(1.2);
+}
+
 
 .cover-image3 {
 
-   height: 500px;
+   height: auto;
    width: 500px;
-   margin-left: 80px;
+   margin-left: 100px;
    margin-top: 50px;
    display: inline-block;
-   
+   transition: .2s;
    
 }
+
+.cover-image3:hover {
+
+   transform: scale(1.2);
+}
    
-   
-
-
-
-#section1 > h1 {
-    font-family: Condensed, sans-serif;
-    font-size: 50px;
-    font-weight: 600;
-    color: #000000;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 50px;
-    
-    
-   }
 
 
    /* Section 2*/
@@ -128,6 +152,7 @@ a:hover {
    margin: 0;
    padding: 0;
    border: 0;
+   position: absolute;
 }
 
 #love {
@@ -137,12 +162,14 @@ a:hover {
    color: #000000;
    font-size: 20px;
    margin-top: 100px;
+   
 }
 
 #love ul {
    list-style-type: none;
    margin: 50px;
    padding: 20px;
+   
 
    
 }
@@ -154,6 +181,7 @@ h2 {
    text-align: center;
    padding: 100px 0 70px 0;
    text-transform: uppercase;
+   
    
    
 }
@@ -183,6 +211,15 @@ h3 {
    margin-left: 80px;
 }
 
+#love > iframe {
+   height: 450px;
+   width: 800px;
+   position: relative;
+   margin: 0 70% 0 28%; 
+   
+   
+
+}
 /*footer*/
 /*This code is borrowed from "love running" project protfolio*/
 footer {
@@ -205,18 +242,3 @@ footer {
     color: #000000;
 }
 
-.paw1 {
-   height: 90px;
-   width: 90px;
-   margin: 40px;
-   display: inline-block;
-   
-}
-.paw2 {
-   height: 90px;
-   width: 90px;
-   margin: 40px;
-   right: auto;
-   display: inline-block;
-
-}
