@@ -12,6 +12,7 @@
 </head>
 <body>
     <header id="header">
+        <h1 id="section1-h1">We love English Bulldogs!</h1>
         <nav>
             <ul class="navigation-list">
                 
@@ -19,7 +20,7 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="love">Why do we love English Bulldogs</a>
+                    <a href="#quiz">Quiz</a>
 
                     </li>
                 <li>
@@ -35,38 +36,107 @@
 
         <section>
 
-            <h1>Register as a fan</h1>
-            <form>
+            <h2>Register as a fan</h2>
+            <form method="post" action="" id="registration-quiz">
+                
 
+                <label for="first-name">First Name</label>
+                <input id="first-name" name="first_name" type="text" placeholder="First Name" required>
 
+                <label for="last-name">Last Name</label>
+                <input id="last-name" name="last_name" type="text" placeholder="Last Name" required>
 
-            </form>
+                <label for="e-mail">E-Mail</label>
+                <input id="e-mail" name="email" type="text" placeholder="E-mail" required>
 
-        </section>
-        <section>
-            <h1>Quiz</h1>
-            
-
-            <form action="" method="post">
-                <h3>Win a free English-Bulldog T-shirt by answering the questions below correctly</h3>
-
-
-
-            </form>
+          
 
             
-        </section>
 
 
-    
 
-        <footer>Social Media
+
+
+
+            
+
+       
+            <h2 id="quiz">Quiz</h2>
+            <h4>Win a free English-Bulldog T-shirt by answering the questions below correctly</h3>
+                <img src="images/bulldogquiz.jpg" alt="bulldog-t-shirt" id="quiz-image">
+
+            <p>What is the favorite snack of an English-Bulldog?</p>
+
+            <input id="pizza" name="pizza" value="pizza" type="radio" required>
+            <label for="pizza">Pizza</label>
+
+            <input id="beef" name="beef" value="beef" type="radio" required>
+            <label for="beef">Beef</label>
+
+            <input id="tomato" name="tomato" value="tomato" type="radio" required>
+            <label for="tomato">Tomatoe</label>
+
+            <input id="aplle" name="aplle" value="aplle" type="radio" required>
+            <label for="aplle">Aplle</label>
+
+            <input id="all-mentioned" name="all_mentioned" value="all-mentioned" type="radio" required>
+            <label for="all-mentioned">All Mentioned</label>
+
+            <p>What is their favorite activity?</p>
+
+            <input id="running" name="running" value="running" type="radio" required>
+            <label for="running">Running</label>
+
+            <input id="sleeping" name="sleeping" value="sleeping" type="radio" required>
+            <label for="sleeping">Sleeping</label>
+
+            <input id="eating" name="eating" value="eating" type="radio" required>
+            <label for="eating">Eating</label>
+
+            <input id="nothing-mentioned" name="nothing-mentioned" value="nothing-mentioned" type="radio" required>
+            <label for="nothing-mentioned">All Mentioned</label>
+
+            <p>What is the ideal and healty weight of an English-Bulldog</p>
+
+            <label for="weight"></label>
+            <input id="weight" list="weight-in-kg" name="weight" required>
+            <datalist id="weight-in-kg">
+                <option value="20-27kg">20-27kg</option>
+                <option value="27-31kg">27-31kg</option>   
+                <option value="31-45kg">31-45kg</option>  
+
+
+            </datalist>
+         </section>
+
+
+    </form>
+
+        <footer>
+
+                   <!--This code is borrowed from "love running" project protfolio -->
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener" 
+                aria-label="Visit our Facebook page (opens in a new browser)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener" 
+                aria-label="Visit our Twitter page (opens in a new browser)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+       
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener" 
+                aria-label="Visit our Instagram page (opens in a new browser)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
 
 
         </footer>
 
 
-    
+     <!-- font awesome script -->
+     <script src="https://kit.fontawesome.com/87e547263b.js" crossorigin="anonymous"></script>
     </body>
 
     </html>

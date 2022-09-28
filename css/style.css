@@ -57,24 +57,18 @@ body {
    display: inline-block;
    padding-right: 80px;
    
- 
-   
-
-   
-   }
+}
 
 
 
 a {
   color: #ffffff;
   text-decoration: none;
-  
-  
 }
 
 .active {
   
-  border-bottom:  #ffffff;
+  border-bottom: 1px solid #ffffff;
     
  }
 
@@ -216,10 +210,56 @@ h3 {
    width: 800px;
    position: relative;
    margin: 0 70% 0 28%; 
+}
+/*registration and Quiz*/
+
+#registration-quiz {
+
+  text-align: center;
+
+}
+
+#registration-quiz > h4 {
+   font-size: 25px;
+   font-family: Condensed, sans-serif;
+   text-transform: capitalize;
+}
+
+label {
+   display: block;
+   margin: 5px 0 5px 0;
+   font-size: 17px;
+   
+   
+   
+}
+
+input [type=radio]{
+   height: 20px;
+   width: 220px;
+   border-style: double;
    
    
 
 }
+
+#registration-quiz > p {
+   font-size: 20px;
+}
+
+#quiz-image{
+   height: 400px;
+   width: 300px;
+   vertical-align: middle;
+
+}
+
+#quiz-image:hover {
+
+   transform: scale(1.6);
+}
+
+
 /*footer*/
 /*This code is borrowed from "love running" project protfolio*/
 footer {
