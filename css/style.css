@@ -141,13 +141,7 @@ a:hover {
 
    /* Section 2*/
 
-.section2 {
-   width: 100%;
-   margin: 0;
-   padding: 0;
-   border: 0;
-   position: absolute;
-}
+
 
 #love {
 
@@ -282,3 +276,48 @@ footer {
     color: #000000;
 }
 
+/*responsive adjustment*/
+
+@media screen and (max-width: 1200px) {
+
+#header {
+   height: 100px;
+   width: 60%;
+   margin: 0 auto;
+
+}
+
+h1 {
+   clear: both;
+   text-align: center;
+   font-size: 60px;
+}
+
+img {
+   vertical-align: middle;
+}
+
+h2 {
+   width: 60%;
+   font-size: 25px;
+   vertical-align: middle;
+   padding: 0 auto;
+}
+
+h3 {
+   width: 35%;
+   font-size: 20px;
+   margin: 0 auto;
+   vertical-align: middle;
+}
+
+.section2-p {
+
+   font-size: 15px;
+   width: 50%;
+   margin: 0 auto;
+
+}
+
+
+}
