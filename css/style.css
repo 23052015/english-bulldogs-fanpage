@@ -513,17 +513,17 @@ margin: 0 auto;
             @media screen and (max-width: 500px) {
 
                .cover-image1  {
-                  width: 300px;
-                  margin: 80px;
+                  width: 150px;
+                  margin: 0 auto; 
                }
                
                .cover-image2  {
-                  width: 300px;
+                  width: 150px;
                   margin: 0 auto;
                   }
 
                .cover-image3 {
-                  width: 300px;
+                  width: 150px;
                   margin: 0 auto;
                   }
 
