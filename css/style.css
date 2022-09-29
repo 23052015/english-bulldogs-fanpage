@@ -8,15 +8,11 @@ body {
    margin: 0;
    padding: 0;
    border: 0;
-   
-   
-}
+   }
 
 /* Header and Navigation */
 
 #header {
-   
-   
    height: 200px;
    width: 100%;
    background-color: #794830;
@@ -48,17 +44,11 @@ body {
    right: 50px;
    top: 90px;
    display: inline-flex;
-   
-   
-
-}   
+   }   
 
 .navigation-list > li {
-
-   
    padding: 10px;
-   
-}
+   }
 
 
 
@@ -187,45 +177,71 @@ h3 {
 
 #love > iframe {
    height: 450px;
-   width: 800px;
+   width: 80%;
    position: relative;
    margin: 0 auto;
    display: flex; 
 }
 /*registration and Quiz*/
 
+
+.registration {
+   padding-top: 50px;
+   
+}
 #registration-quiz {
 
   text-align: center;
-
-}
+  font-family: Roboto, sans-serif;
+  }
 
 #registration-quiz > h4 {
    font-size: 25px;
+   font-weight: 300;
    font-family: Condensed, sans-serif;
    text-transform: capitalize;
 }
 
 label {
-   display: block;
+   
    margin: 5px 0 5px 0;
-   font-size: 17px;
-   
-   
-   
+   font-size: 25px;
+   display: block;
 }
+ 
 
-input [type=radio]{
+ input{
+   height: 40px;
+   width: 300px;
+
+   
+ }  
+
+ option {
+   font-size: 20px;
+ }
+
+
+
+input [type=radio] {
    height: 20px;
    width: 220px;
    border-style: double;
+   font-size: 23px;
    
-   
+}
+  
+input [type=text] {
+
+  width: 100px;
+  padding: 12px 20px;
+  margin: 8px 0;
+ 
 
 }
 
 #registration-quiz > p {
-   font-size: 20px;
+   font-size: 28px;
 }
 
 #quiz-image{
@@ -244,6 +260,7 @@ input [type=radio]{
 /*footer*/
 /*This code is borrowed from "love running" project protfolio*/
 footer {
+   
     height: 150px;
 }
 
@@ -283,10 +300,14 @@ footer {
       }
     .cover-image2  {
       width: 350px;
+      display: inline-flex;
+      margin-bottom: 0;
       }
    
    .cover-image3  {
       width: 350px;
+      display: inline-flex;
+      margin-bottom: 0;
  }
 
     #love {
@@ -313,21 +334,17 @@ margin: 0 auto;
       }
    
    .section2-list {
-   
-      
       display: inline-block;
       vertical-align: middle;
       
    }
    .navigation-list {
-      
-      right: 10px;
+       right: 10px;
       text-align: center;
       padding-top: 35px;
       
    }
-   
-   }
+}
    
 @media screen and (max-width: 1370px) {
 
@@ -350,13 +367,10 @@ margin: 0 auto;
    }
    
    #love {
-
       margin: 0 auto;
-      
       }
 
    h2 {
-      
       font-size: 38px;
       padding-bottom: 20px;
       text-align: center;
@@ -364,44 +378,28 @@ margin: 0 auto;
    }
    
    h3 {
-      
-      
       font-size: 30px;
       margin: 0 auto;
       vertical-align: middle;
-      
-      
-      
-   }
+      }
    
    .section2-p {
-      
       font-size: 25px;
       display: flex;
-
-      
-      
-   
    }
    
    .section2-list {
-   
-      
       display: inline-block;
       margin: 0 auto;
-      width: 28%;
-     
-      
+      width: 100%; 
    }
-   .navigation-list {
-      
+   .navigation-list { 
       right: 10px;
       text-align: center;
       padding-top: 35px;
       
    }
-   
-   }
+     }
 
    @media screen and (max-width: 1215px) {
 
@@ -427,12 +425,9 @@ margin: 0 auto;
       
             margin: 0 auto;
             text-align: center;
+         }
             
-
-            }
-
-        
-         h2 {
+            h2 {
             
             font-size: 33px;
             padding-bottom: 20px;
@@ -448,8 +443,6 @@ margin: 0 auto;
                   margin: 0 auto;
                   display: flex;
                   padding-top: 250px;
-                 
-                 
                   }
                
                .cover-image2  {
@@ -474,21 +467,101 @@ margin: 0 auto;
                   text-align: center;
                   margin: 0 auto;
                }
+
                h3 {
                   font-size: 25px;
                   margin: 0 auto;
-                  
-                }
+                  padding: 10px 0 10px 0;
+                  text-align: center;
+                  }
 
+              #love > ul {
+
+               flex-direction: column;
+               padding: 0;
+               margin: 0 auto;
+              }
+
+            .section2-p {
+               padding: 10px 0 20px 0;
+               text-align: center;
+               width: 100%;
+              }
               
-                
-
-               
-               
-             #header { 
+              #header { 
                height: 200px;
                width: 100%;
                position: fixed;
+               top: 0;
+               z-index: 1;
+               }
+
+               .navigation-list {
+               position: relative;
+               text-align: center;
+             }
+            
+             h1 {
+                   font-size: 35px;
+                  }
+                  
+                  #registration-quiz {
+                  padding-top: 150px;
+                 } 
+
+               }
+            @media screen and (max-width: 500px) {
+
+               .cover-image1  {
+                  width: 500px;
+                  margin-left: 80px;
+               }
+               
+               .cover-image2  {
+                  width: 500px;
+                  margin-left: 80px;
+                  }
+
+               .cover-image3 {
+                  width: 500px;
+                  margin-left: 80px;
+                  }
+
+                  h2 {
+                  
+                  font-size: 40px;
+                  padding-bottom: 20px 0 20px 0;
+                  text-align: center;
+                  width: 200%;
+               }
+              
+              h3 {
+               padding: 10px 0 10px 0;
+               text-align: left;
+               font-size: 35px;
+              }
+              
+              .section2-list {
+               text-align: left;
+               width: 170%;
+               
+              }
+
+              .section2-p {
+
+               padding: 10px 0 20px 0;
+               font-size: 35px;
+               width: 100%;
+               text-align: left;
+              }
+              
+              #header { 
+               height: 200px;
+               width: 100%;
+               position: fixed;
+               top: 0;
+               z-index: 1;
+
                
                
              }
@@ -496,14 +569,36 @@ margin: 0 auto;
              .navigation-list {
                position: relative;
                text-align: center;
+               font-size: 20px;
              }
             
-
-               h1 {
-                   font-size: 35px;
+             h1 {
+                   font-size: 30px;
+                   width: 100%;
+                   text-align: center;
                   }
 
-               
-           
+                  .social-networks {
+                     width: 200%;
+                  }    
 
-            }
+                  #love > iframe {
+                     width: 180%;
+                     margin-left: 50px;
+                     
+                     
+                  }
+
+                  /* registration and quiz */
+
+                  #registration-quiz {
+                     
+                     margin-left: 200px;
+                     
+                 
+                  }
+
+
+
+
+                  }
