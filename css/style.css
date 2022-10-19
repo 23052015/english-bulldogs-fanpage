@@ -19,7 +19,7 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 0 25px;
+   padding: 0px;
 }
 
  h1 {
@@ -85,7 +85,7 @@ a:hover {
    position: absolute;
    height: 4px;
    right: 0;
-   background-color: #000000;
+   background-color: #ffffff;
    border-radius: 10px;
 }
 
@@ -546,7 +546,10 @@ margin: 0 auto;
             .hamburger, .hamburger-menu {
                display: block;
                position: fixed;
-               padding-right: 20px;
+               
+            }
+               
+           
             }
             .navigation-list {
                justify-content: start;
@@ -554,9 +557,9 @@ margin: 0 auto;
                align-items: center;
                position: fixed;
                top: 0;
-               right: -200px;
+               right: -200x;
                background: #794830;
-               width: 200px;
+               width: 100px;
                height: 100%;
                
             }
@@ -635,4 +638,4 @@ margin: 0 auto;
                      width: 80%;
                   }     
                }
-            }
+            
