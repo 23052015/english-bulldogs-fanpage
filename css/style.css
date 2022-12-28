@@ -13,11 +13,11 @@ body {
 /* Header and Navigation */
 
 #header {
-   position: relative;
+   position: fixed;
    width: 100%;
    background-color: #794830;
    display: flex;
-   justify-content: space-between;
+   /* justify-content: space-between; */
    align-items: center;
    padding: 0px;
 }
@@ -35,7 +35,7 @@ body {
 .navigation {
    display: flex;
    justify-content: space-between;
-   align-items: center;
+   text-align: right;
 
 }
 .navigation-list {
@@ -43,7 +43,7 @@ body {
    display: flex;
    justify-content: center;
    flex-direction: row;
-   align-items: center;
+   align-items: right;
    z-index: 1;
    }   
 
@@ -74,10 +74,10 @@ a:hover {
    position: relative;
    width: 30px;
    height: 4px;
-   background: #ffffff;
+   background: #000000;
    border-radius: 10px;
    cursor: pointer;
-   z-index: 2;
+   z-index: 1;
 }
 
 .hamburger:before, .hamburger:after {
@@ -85,7 +85,7 @@ a:hover {
    position: absolute;
    height: 4px;
    right: 0;
-   background-color: #ffffff;
+   background-color: #000000;
    border-radius: 10px;
 }
 
@@ -343,7 +343,7 @@ footer {
 /*responsive design*/
 
 
-@media screen and (max-width: 1650px) {
+/*@media screen and (max-width: 1250px) {
 
    #header {
       margin: 0 auto;
@@ -400,9 +400,9 @@ margin: 0 auto;
       
    }
  
-@media screen and (max-width: 1370px) {
+   @media screen and (max-width: 1370px) {
 
-.cover-image1  {
+   .cover-image1  {
       width: 300px;
       display: inline-flex;
       margin-bottom: 0;
@@ -484,7 +484,7 @@ margin: 0 auto;
             margin: 0 auto;
          }
       }
-         
+         */
          @media screen and (max-width: 925px) {
 
             .cover-image1  {
@@ -557,7 +557,7 @@ margin: 0 auto;
                align-items: center;
                position: fixed;
                top: 0;
-               right: -200x;
+               right: -200px;
                background: #794830;
                width: 100px;
                height: 100%;
@@ -575,7 +575,7 @@ margin: 0 auto;
 
 
 
-               }
+               
             @media screen and (max-width: 500px) {
 
                .cover-image1  {
