@@ -33,7 +33,7 @@ h1 {
 
 
 .navigation {
-   /*display: flex;*/
+   display: flex;
    justify-content: space-between;
    text-align: left;
    
@@ -394,76 +394,90 @@ footer {
       padding: 0;
       margin: 0 auto;
    }
-
-   .navigation {
+   #header {
+      position: fixed;
+      width: 100%;
+      background-color: #794830;
       display: flex;
       justify-content: space-between;
-      text-align: right;
-
+      align-items: center;
+      padding: 0px;
    }
-
-   .navigation-list {
-
+   .navigation {
+      /*display: flex;*/
       display: flex;
-      justify-content: center;
-      flex-direction: row;
-      align-items: right;
-      z-index: 1;
+      justify-content: space-between;
+      align-items: center;
+      text-align: right;
+   
    }
-
+   
+   .navigation-list {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100px;
+    height: 100%;
+    top: 0;
+    right: -200px;
+    background: #000000;
+    z-index: 1;
+    border-radius: 10px;
+   
+   }
+   
    .navigation-list li {
       list-style-type: none;
-
+   
    }
-
+   
    .navigation-list li a {
       color: #ffffff;
       text-decoration: none;
       display: block;
-      padding: 40px 25px;
-      font-size: 18px;
+      padding: 20px 25px;
+      font-size: 15px;
       line-height: 1;
    }
-
+   
    .active {
       border-bottom: 1px solid #ffffff;
    }
-
+   
    a:hover {
-
-      border: 2px solid #ffffff;
+      border: 1px solid #ffffff;
    }
-
+   
    .hamburger {
       position: absolute;
       width: 30px;
       height: 4px;
-      background: #000000;
+      background: #ffffff;
       border-radius: 10px;
       cursor: pointer;
-      z-index: 1;
+      z-index: 2;
    }
-
-   .hamburger:before,
-   .hamburger:after {
+   
+   .hamburger:before, .hamburger:after {
       content: "";
       position: absolute;
       height: 4px;
       right: 0;
-      background-color: #000000;
+      background-color: #ffffff;
       border-radius: 10px;
    }
-
+   
    .hamburger:before {
       top: -10px;
       width: 20px;
    }
-
-   .hamburger:after {
-      top: 10px;
-      width: 25px;
+      .hamburger:after {
+         top: 10px;
+         width: 25px;
    }
-
+   
    .hamburger-menu {
       position: absolute;
       width: 30px;
@@ -472,79 +486,42 @@ footer {
       cursor: pointer;
       opacity: 0;
    }
-
-   .hamburger,
-   .hamburger-menu {
+   
+   .hamburger, .hamburger-menu {
       /*display: none;*/
+      display: block;
+      position: fixed;
    }
-
-   .navigation input:checked~.hamburger {
+   
+   .navigation input:checked ~ .hamburger {
       background: transparent;
    }
-
-   .navigation input:checked~.hamburger:before {
+   
+   .navigation input:checked ~ .hamburger:before {
       top: 0;
       transform: rotate(-45deg);
       width: 30px;
    }
-
-   .navigation input:checked~.hamburger:after {
+   
+   .navigation input:checked ~ .hamburger:after {
       top: 0;
       transform: rotate(-45deg);
       width: 30px;
    }
-
-   .navigation input:checked~.navigation-list {
+   
+   .navigation input:checked ~ .navigation-list {
       right: 0;
    }
-
    .section2-p {
-      padding: 10px 0 20px 0;
-      text-align: center;
-      width: 80%;
+   padding: 10px 0 20px 0;
+   text-align: center;
+   width: 80%;
    }
 
    #registration-quiz {
       padding-top: 150px;
    }
-
-
-
-   .hamburger,
-   .hamburger-menu {
-      display: block;
-      position: fixed;
-
-   }
-
-
-
-
-.navigation-list {
-   justify-content: start;
-   flex-direction: column;
-   align-items: center;
-   position: fixed;
-   top: 0;
-   right: -200px;
-   background: #794830;
-   width: 100px;
-   height: 100%;
-
-}
-
-.navigation-list li {
-   width: 100%;
-}
-
-.navigation-list li a {
-   padding: 30px;
-   font-size: 22px;
-}
-
-
-
-
+   
 @media screen and (max-width: 500px) {
 
    .cover-image1 {
