@@ -28,6 +28,7 @@ h1 {
    font-weight: 600;
    color: #ffffff;
    text-transform: uppercase;
+   padding-left: 9px;
 
 }
 
@@ -71,71 +72,9 @@ a:hover {
    border: 1px solid #ffffff;
 }
 
-/*.hamburger {
-   position: absolute;
-   width: 30px;
-   height: 4px;
-   background: #000000;
-   border-radius: 10px;
-   cursor: pointer;
-   z-index: 1;
-}
-
-.hamburger:before, .hamburger:after {
-   content: "";
-   position: absolute;
-   height: 4px;
-   right: 0;
-   background-color: #000000;
-   border-radius: 10px;
-}
-
-.hamburger:before {
-   top: -10px;
-   width: 20px;
-}
-   .hamburger:after {
-      top: 10px;
-      width: 25px;
-}
-
-.hamburger-menu {
-   position: absolute;
-   width: 30px;
-   height: 100%;
-   z-index: 3;
-   cursor: pointer;
-   opacity: 0;
-}
-
-.hamburger, .hamburger-menu {
-   display: none;
-}
-
-.navigation input:checked ~ .hamburger {
-   background: transparent;
-}
-
-.navigation input:checked ~ .hamburger:before {
-   top: 0;
-   transform: rotate(-45deg);
-   width: 30px;
-}
-
-.navigation input:checked ~ .hamburger:after {
-   top: 0;
-   transform: rotate(-45deg);
-   width: 30px;
-}
-
-.navigation input:checked ~ .navigation-list {
-   right: 0;
-}*/
-/* Section 1 */
 
 #section1 {
    height: auto;
-   /*width: 100%;*/
    padding-top: 8%;
    display: block;
    text-align: center;
@@ -351,49 +290,6 @@ footer {
 
 @media screen and (max-width: 925px) {
 
-   .cover-image1 {
-      width: 400px;
-      margin: 0 auto;
-      display: flex;
-      padding-top: 250px;
-   }
-
-   .cover-image2 {
-      width: 400px;
-      margin: 0 auto;
-      display: flex;
-      padding-top: 25px;
-   }
-
-   .cover-image3 {
-
-      width: 400px;
-      margin: 0 auto;
-      display: flex;
-      padding-top: 25px;
-   }
-
-   h2 {
-
-      font-size: 28px;
-      padding-bottom: 20px;
-      text-align: center;
-      margin: 0 auto;
-   }
-
-   h3 {
-      font-size: 25px;
-      margin: 0 auto;
-      padding: 10px 0 10px 0;
-      text-align: center;
-   }
-
-   #love>ul {
-
-      flex-direction: column;
-      padding: 0;
-      margin: 0 auto;
-   }
    #header {
       position: fixed;
       width: 100%;
@@ -491,6 +387,7 @@ footer {
       /*display: none;*/
       display: block;
       position: fixed;
+      right: 15px;
    }
    
    .navigation input:checked ~ .hamburger {
@@ -512,10 +409,55 @@ footer {
    .navigation input:checked ~ .navigation-list {
       right: 0;
    }
+
+   .cover-image1 {
+      width: 400px;
+      margin: 0 auto;
+      display: flex;
+      padding-top: 250px;
+   }
+
+   .cover-image2 {
+      width: 400px;
+      margin: 0 auto;
+      display: flex;
+      padding-top: 25px;
+   }
+
+   .cover-image3 {
+
+      width: 400px;
+      margin: 0 auto;
+      display: flex;
+      padding-top: 25px;
+   }
+
+   h2 {
+
+      font-size: 28px;
+      padding-bottom: 20px;
+      text-align: center;
+      margin: 0 auto;
+   }
+
+   h3 {
+      font-size: 25px;
+      margin: 0 auto;
+      padding: 10px 0 10px 0;
+      text-align: center;
+   }
+
+   #love>ul {
+
+      flex-direction: column;
+      padding: 0;
+      margin: 0 auto;
+   }
+
    .section2-p {
    padding: 10px 0 20px 0;
    text-align: center;
-   width: 80%;
+   width: 100%;
    }
 
    #registration-quiz {
