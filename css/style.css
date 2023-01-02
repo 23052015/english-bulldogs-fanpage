@@ -13,7 +13,7 @@ body {
 /* Header and Navigation */
 
 #header {
-   position: fixed;
+   position: relative;
    width: 100%;
    background-color: #794830;
    display: flex;
@@ -494,8 +494,8 @@ footer {
    }
 
    .section2-list {
-      text-align: left;
-      width: 80%;
+      text-align: center;
+      
 
    }
 
@@ -503,7 +503,6 @@ footer {
 
       padding: 10px 0 20px 0;
       font-size: 18px;
-      width: 90%;
       text-align: center;
    }
 
@@ -524,6 +523,7 @@ footer {
 
    #love>iframe {
       width: 80%;
+      height: 60%;
    }
 }
 }
