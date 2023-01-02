@@ -50,6 +50,10 @@ h1 {
    z-index: 1;
 }
 
+.hamburger-menu {
+   display: none;
+}
+
 .navigation-list li {
    list-style-type: none;
 
@@ -179,7 +183,7 @@ h3 {
 
 #love>iframe {
    height: 450px;
-   width: 80%;
+   width: 50%;
    position: relative;
    margin: 0 auto;
    display: flex;
@@ -214,13 +218,6 @@ label {
 }
 
 
-input {
-   height: 40px;
-   width: 300px;
-
-
-}
-
 option {
    font-size: 20px;
 }
@@ -232,16 +229,18 @@ input [type=radio] {
    width: 220px;
    border-style: double;
    font-size: 23px;
+   display: inline-block;
+   background-color: #794830;
+}
 
+label {
+   display:inline-block;
 }
 
 input [type=text] {
-
    width: 100px;
    padding: 12px 20px;
    margin: 8px 0;
-
-
 }
 
 #registration-quiz>p {
@@ -388,6 +387,7 @@ footer {
       display: block;
       position: fixed;
       right: 15px;
+      top: 20px;
    }
    
    .navigation input:checked ~ .hamburger {
@@ -464,6 +464,17 @@ footer {
       padding-top: 150px;
    }
    
+   label[for="first-name"] {
+      display: block;
+   }
+
+   label[for="last-name"] {
+      display: block;
+   }
+
+   label[for="e-mail"] {
+      display: block;
+   }
 @media screen and (max-width: 500px) {
 
    .cover-image1 {
@@ -476,6 +487,15 @@ footer {
 
    .cover-image3 {
       width: 300px;
+
+   }
+
+   h1 {
+      font-size: 28px;
+      font-weight: 0;
+      text-align: left;
+      width: 50%;
+      top: -15px;
 
    }
 
@@ -504,17 +524,6 @@ footer {
       padding: 10px 0 20px 0;
       font-size: 18px;
       text-align: center;
-   }
-
-
-
-   h1 {
-      font-size: 28px;
-      font-weight: 0;
-      text-align: left;
-      width: 50%;
-      top: -15px;
-
    }
 
    .social-networks {

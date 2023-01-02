@@ -1,4 +1,4 @@
-This fanpage is created in order to assemble all English_bulldog lovers. The user can get familiar with with this dog type 
+This fanpage is created in order to assemble all English bulldog lovers. The user can get familiar with with this dog type 
 and can win a free T-Shirt. 
 ![Screenshot (38)](https://user-images.githubusercontent.com/109954194/193162958-8cc5677c-34a6-48b0-b41d-880c98367609.png)
 Features
