@@ -2,18 +2,29 @@
 
 This fanpage is created in order to assemble all English bulldog lovers. The user can get familiar with this dog type 
 and can win a free T-Shirt. 
-![Screenshot (38)](https://user-images.githubusercontent.com/109954194/193162958-8cc5677c-34a6-48b0-b41d-880c98367609.png)
-Features
-The header includes a navigation menu. In the first section there are several pictures of my own English-Bulldog called Gafi. 
-![Screenshot (34)](https://user-images.githubusercontent.com/109954194/193163114-9fa3a585-6a0a-4f42-b28f-f65a2ceb5c47.png)
-In the navigation menu you can click  on "Why do we love English-Bulldogs" and this would lead you to the 2. section. In this section, the behavior and character is
-shortly described. There is also a video shared from Youtube. 
-![Screenshot (37)](https://user-images.githubusercontent.com/109954194/193163196-1ce667fd-477a-4bb0-b10a-937442a2ca54.png)
-In the registration and quiz section, you can registrate as a fan and also win a free T-Shirt by answering the questions correctly and clicking on submit button. 
+[Link to the page](https://23052015.github.io/english-bulldogs-fanpage/)
+##Features
 
-![Screenshot (40)](https://user-images.githubusercontent.com/109954194/193164012-f5609bb9-3e1b-4104-b615-5297c94e0d94.png)
-![Screenshot (41)](https://user-images.githubusercontent.com/109954194/193164018-97534d08-e5a3-4517-bfd4-f6aef817924f.png)
-![Screenshot (42)](https://user-images.githubusercontent.com/109954194/193164022-2a789364-1762-4d8d-83d7-caaf6a5840f0.png)
+
+###Existing Features
+
+* #### Header
+The headline is situated in the top left corner and describes the purpose of the page. 
+* #### Navigation 
+* * The navigation is situated at the top right corner of the page. It contains three main links.
+* * The navigation links "Home" and "Why do we love English bulldogs" lead to different sections on the same page.
+* * When using smaller devices(computers or tablets), the navigation is displayed with 3 lines which when clicked open the menu. 
+* * Font and colors are adjusted to be easy to read and to fit the colors of the images. 
+* * The navigation describes the different sections exactly so  that user can easily navigate the website. 
+
+
+
+
+* * Home: This is the link to the main page which contains pictures of an English Bulldog in different situations. 
+* * Why do we love english bulldogs: The link leads to the the second section of the main page where a short description of this dog breed is placed.
+    There is also a video link to youtube which shows everyday life situations with english Bulldogs. 
+* * Registration and quiz: By clicking on this link the user opens a new page in the same tab. On this page the user can register himself as an official fan
+    and participate in the quiz where he can win a free t-shirt by answering the questions correctly and clicking on submit button. 
 Our page is also represented on different social media platforms as for example: Facebook, Instagram....
 Testing
 I tested this in Google Chrome and Microsoft Edge.
