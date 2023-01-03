@@ -1,12 +1,16 @@
-#English Bulldog Fanpage 
+# English Bulldog Fanpage 
 
-This fanpage is created in order to assemble all English bulldog lovers. The user can get familiar with this dog type 
-and can win a free T-Shirt. 
+This website is created in order to assemble all English bulldog lovers. The user can get familiar with this dog type 
+and win a free T-Shirt. It targets dog owners as well as people who like dogs and other pets. 
+
+Here the user will be able to find interesting content about the breed English Bulldog. The user will also be able to participate in a quiz where a free T-shirt can be won by answering all the questions correctly. 
 [Link to the page](https://23052015.github.io/english-bulldogs-fanpage/)
-##Features
 
 
-###Existing Features
+## Features
+
+
+### Existing Features
 
 * ### Header
 The headline is situated in the top left corner and describes the purpose of the page. It explains that the website is for english Bulldog lovers.
@@ -28,11 +32,26 @@ The headline is situated in the top left corner and describes the purpose of the
 
     
     
-* * Why do we love english bulldogs: The link leads to the the second section of the main page where a short description of this dog breed is placed.
+* ### Why do we love english bulldogs
+* * The link leads to the the second section of the main page where a short description of this dog breed is placed.
     There is also a video link to youtube which shows everyday life situations with english Bulldogs. 
-* * Registration and quiz: By clicking on this link the user opens a new page in the same tab. On this page the user can register himself as an official fan
+* * The user can get informed here about the breed in case he/she wants to get an English Bulldog or simply acquire knowledge about the breed.  
+
+![Screenshot (58)](https://user-images.githubusercontent.com/109954194/210435178-9e96ea28-f2fe-4c3d-9dce-d3a188d4df86.png)
+
+
+
+* ### Registration and quiz
+* * By clicking on this link the user opens a new page in the same tab. On this page the user can register himself as an official fan
     and participate in the quiz where he can win a free t-shirt by answering the questions correctly and clicking on submit button. 
-Our page is also represented on different social media platforms as for example: Facebook, Instagram....
+* * All input fields must be filled out in order to get registered as a fan and to submit the quiz questions. 
+
+    
+* ### Social media links
+* * The website is also represented on Facebook, Twitter and Instagram
+* * By clicking on the icon the chosen social media platform is opened in a new tab. 
+* * The user goal here is to get in touch with people who are also like English Bulldogs. 
+
 Testing
 I tested this in Google Chrome and Microsoft Edge.
 Everything works perfectly. 
