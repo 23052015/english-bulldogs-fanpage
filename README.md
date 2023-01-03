@@ -8,19 +8,26 @@ and can win a free T-Shirt.
 
 ###Existing Features
 
-* #### Header
-The headline is situated in the top left corner and describes the purpose of the page. 
-* #### Navigation 
+* ### Header
+The headline is situated in the top left corner and describes the purpose of the page. It explains that the website is for english Bulldog lovers.
+* ### Navigation 
 * * The navigation is situated at the top right corner of the page. It contains three main links.
 * * The navigation links "Home" and "Why do we love English bulldogs" lead to different sections on the same page.
 * * When using smaller devices(computers or tablets), the navigation is displayed with 3 lines which when clicked open the menu. 
 * * Font and colors are adjusted to be easy to read and to fit the colors of the images. 
 * * The navigation describes the different sections exactly so  that user can easily navigate the website. 
+![Screenshot 2023-01-03 140131](https://user-images.githubusercontent.com/109954194/210362951-9ec1fdf3-aaba-4b57-b8ac-4ac64191e4eb.png)
+![Screenshot 2023-01-03 140218](https://user-images.githubusercontent.com/109954194/210362979-962ba788-a9fb-4b37-8b12-ef58e7962618.png)
+![Screenshot 2023-01-03 140241](https://user-images.githubusercontent.com/109954194/210362998-2b7a9850-f178-4be9-ba27-f43df30b5878.png)
 
 
+* ### Home 
+* * This is the link to the main page which contains pictures of an English Bulldog in different situations. It when hovered over the pictures with the mouse, 
+    the picture zooms in.
+    ![Screenshot 2023-01-03 142014](https://user-images.githubusercontent.com/109954194/210365195-47f673c2-bc2f-4b0e-a22b-80cb49e2c9f8.png)
 
-
-* * Home: This is the link to the main page which contains pictures of an English Bulldog in different situations. 
+    
+    
 * * Why do we love english bulldogs: The link leads to the the second section of the main page where a short description of this dog breed is placed.
     There is also a video link to youtube which shows everyday life situations with english Bulldogs. 
 * * Registration and quiz: By clicking on this link the user opens a new page in the same tab. On this page the user can register himself as an official fan
