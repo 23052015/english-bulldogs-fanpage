@@ -2,7 +2,6 @@
 
 
 body {
-
    color: #000000;
    font-family: Roboto, sans-serif;
    margin: 0;
@@ -29,20 +28,15 @@ h1 {
    color: #ffffff;
    text-transform: uppercase;
    padding-left: 9px;
-
 }
-
 
 .navigation {
    display: flex;
    justify-content: space-between;
-   text-align: left;
-   
-
+   text-align: left;   
 }
 
 .navigation-list {
-
    display: flex;
    justify-content: center;
    flex-direction: row;
@@ -56,7 +50,6 @@ h1 {
 
 .navigation-list li {
    list-style-type: none;
-
 }
 
 .navigation-list li a {
@@ -76,7 +69,6 @@ a:hover {
    border: 1px solid #ffffff;
 }
 
-
 #section1 {
    height: auto;
    padding-top: 8%;
@@ -85,64 +77,48 @@ a:hover {
 }
 
 .cover-image1 {
-
    height: auto;
    width: 350px;
    margin-left: 6%;
    display: inline-flex;
    transition: .2s;
-
 }
 
 .cover-image1:hover {
-
    transform: scale(1.2);
 }
 
 .cover-image2 {
-
    height: auto;
    width: 350px;
    margin-left: 6%;
    display: inline-flex;
    transition: .2s;
-
-
 }
 
 .cover-image2:hover {
-
    transform: scale(1.2);
 }
 
-
 .cover-image3 {
-
    height: auto;
    width: 350px;
    margin-left: 6%;
    display: inline-flex;
    transition: .2s;
-
 }
 
 .cover-image3:hover {
-
    transform: scale(1.2);
 }
 
-
-
 /* Section 2*/
-
 
 #love {
    width: 100%;
    font-family: Condensed, sans-serif;
    color: #000000;
    font-size: 20px;
-
-
 }
 
 #love ul {
@@ -157,21 +133,17 @@ h2 {
    text-align: center;
    padding: 100px 0 70px 0;
    text-transform: uppercase;
-
 }
 
 h3 {
-
    font-size: 35px;
    font-family: Condensed, sans-serif;
    text-transform: capitalize;
    text-align: left;
    padding-left: 30px;
-
 }
 
 .section2-list {
-
    padding-left: 5px;
 }
 
@@ -190,15 +162,11 @@ h3 {
 }
 
 /*registration and Quiz*/
-
-
 .registration {
    padding-top: 50px;
-
 }
 
 #registration-quiz {
-
    text-align: center;
    font-family: Roboto, sans-serif;
 }
@@ -211,18 +179,14 @@ h3 {
 }
 
 label {
-
    margin: 5px 0 5px 0;
    font-size: 25px;
    display: block;
 }
 
-
 option {
    font-size: 20px;
 }
-
-
 
 input [type=radio] {
    height: 20px;
@@ -251,19 +215,16 @@ input [type=text] {
    height: 400px;
    width: 300px;
    vertical-align: middle;
-
 }
 
 #quiz-image:hover {
-
    transform: scale(1.6);
 }
 
-
 /*footer*/
 /*This code is borrowed from "love running" project protfolio*/
-footer {
 
+footer {
    height: 150px;
 }
 
@@ -284,27 +245,32 @@ footer {
 
 /*responsive design*/
 
-
-
-
 @media screen and (max-width: 925px) {
 
    #header {
       position: fixed;
       width: 100%;
+      height: 150px;
       background-color: #794830;
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 0px;
    }
+
+   h1 {
+      font-family: Condensed, sans-serif;
+      font-size: 35px;
+      font-weight: 600;
+      color: #ffffff;
+      text-transform: uppercase;
+      padding-left: 9px;   
+   }
    .navigation {
-      /*display: flex;*/
       display: flex;
       justify-content: space-between;
       align-items: center;
       text-align: right;
-   
    }
    
    .navigation-list {
@@ -315,17 +281,15 @@ footer {
     position: relative;
     width: 100px;
     height: 100%;
-    top: 0;
+    top: 66px;
     right: -200px;
     background: #000000;
     z-index: 1;
     border-radius: 10px;
-   
    }
    
    .navigation-list li {
       list-style-type: none;
-   
    }
    
    .navigation-list li a {
@@ -383,7 +347,6 @@ footer {
    }
    
    .hamburger, .hamburger-menu {
-      /*display: none;*/
       display: block;
       position: fixed;
       right: 15px;
@@ -411,29 +374,27 @@ footer {
    }
 
    .cover-image1 {
-      width: 400px;
+      width: 300px;
       margin: 0 auto;
       display: flex;
-      padding-top: 250px;
+      padding-top: 110px;
    }
 
    .cover-image2 {
-      width: 400px;
+      width: 300px;
       margin: 0 auto;
       display: flex;
       padding-top: 25px;
    }
 
    .cover-image3 {
-
-      width: 400px;
+      width: 300px;
       margin: 0 auto;
       display: flex;
       padding-top: 25px;
    }
 
    h2 {
-
       font-size: 28px;
       padding-bottom: 20px;
       text-align: center;
@@ -448,7 +409,6 @@ footer {
    }
 
    #love>ul {
-
       flex-direction: column;
       padding: 0;
       margin: 0 auto;
@@ -461,7 +421,7 @@ footer {
    }
 
    #registration-quiz {
-      padding-top: 150px;
+      padding-top: 20%;
    }
    
    label[for="first-name"] {
@@ -477,32 +437,32 @@ footer {
    }
 @media screen and (max-width: 500px) {
 
+   #header {
+      height: 120px;
+   }
+
    .cover-image1 {
-      width: 300px;
+      width: 200px;
    }
 
    .cover-image2 {
-      width: 300px;
+      width: 200px;
    }
 
    .cover-image3 {
-      width: 300px;
+      width: 200px;
 
    }
 
    h1 {
       font-size: 28px;
-      font-weight: 0;
       text-align: left;
       width: 50%;
       top: -15px;
-
    }
 
    h2 {
-
       font-size: 25px;
-      padding-bottom: 20px 0 20px 0;
       text-align: center;
       width: 80%;
    }
@@ -515,12 +475,9 @@ footer {
 
    .section2-list {
       text-align: center;
-      
-
    }
 
    .section2-p {
-
       padding: 10px 0 20px 0;
       font-size: 18px;
       text-align: center;
@@ -533,6 +490,13 @@ footer {
    #love>iframe {
       width: 80%;
       height: 60%;
+   }
+
+   #registration-quiz > p {
+      font-size: 20px;
+   }
+   #registration-quiz > label, input {
+      font-size: 15px;
    }
 }
 }
