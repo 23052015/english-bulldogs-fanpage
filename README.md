@@ -68,24 +68,27 @@ Here the user will be able to find interesting content about the breed English B
 
 
 * ### Bugs 
-   ### Solved Bugs
+
+
+* ### Solved Bugs
   * A major problem occured while trying to make the pictures(section1/Home) responsive. Especcialy the pictures were very hard to adjust to all devices. 
   * This was solved by using the flex property. 
 
+* ### Unfixed Bugs
+  * No unfixed bugs. 
+
 
 * ### Validator Testing
-    * HTML
-        * No errors were detected when passing through the official W3C validator.
-    * CSS
-        * No errors were found when passing through the official Jigsaw validator. 
-    * Accessibility
-        * The accessibility is confirmed by running the website through lighthouse in devtools.
+  #### HTML
+    * No errors were detected when passing through the official W3C validator.
+  #### CSS
+    * No errors were found when passing through the official Jigsaw validator. 
+  #### Accessibility
+     * The accessibility is confirmed by running the website through lighthouse in devtools.
 
 ![Screenshot 2023-01-04 122524](https://user-images.githubusercontent.com/109954194/210545157-adfa76e1-8061-4d33-8d7a-6cdd14bb5cb7.png)
 
 
-* ### Unfixed Bugs
-    * No unfixed bugs. 
 
 
 ## Deployment 
