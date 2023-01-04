@@ -3,14 +3,16 @@
 This website is created in order to assemble all English bulldog lovers. The user can get familiar with this dog type 
 and win a free T-Shirt. It targets dog owners as well as people who like dogs and other pets. 
 
-Here the user will be able to find interesting content about the breed English Bulldog. The user will also be able to participate in a quiz where a free T-shirt can be won by answering all the questions correctly. 
+Here the user will be able to find interesting content about the English Bulldog breed. The user will also be able to participate in a quiz where a free T-shirt can be won by answering all the questions correctly. 
 [Link to the page](https://23052015.github.io/english-bulldogs-fanpage/)
+
+
+![Screenshot 2023-01-04 125526](https://user-images.githubusercontent.com/109954194/210549915-87f23c91-c15c-4505-9c66-84201f38c44f.png)
 
 
 ## Features
 
 
-### Existing Features
 
 * ### Header
   * The headline is situated in the top left corner and describes the purpose of the page. It explains that the website is for english Bulldog lovers.
@@ -20,21 +22,24 @@ Here the user will be able to find interesting content about the breed English B
   * When using smaller devices(computers or tablets), the navigation is displayed with 3 lines which when clicked open the menu. 
   * Font and colors are adjusted to be easy to read and to fit the colors of the images. 
   * The navigation describes the different sections exactly so  that user can easily navigate the website. 
+  * When hovered over the navigation content with the mouse, the targeted link is surrounded by a white square.
+
+
 ![Screenshot 2023-01-03 140131](https://user-images.githubusercontent.com/109954194/210362951-9ec1fdf3-aaba-4b57-b8ac-4ac64191e4eb.png)
 ![Screenshot 2023-01-03 140218](https://user-images.githubusercontent.com/109954194/210362979-962ba788-a9fb-4b37-8b12-ef58e7962618.png)
 ![Screenshot 2023-01-03 140241](https://user-images.githubusercontent.com/109954194/210362998-2b7a9850-f178-4be9-ba27-f43df30b5878.png)
 
 
 * ### Home 
-  * This is the link to the main page which contains pictures of an English Bulldog in different situations. It when hovered over the pictures with the mouse, 
+  * This is the main page which contains pictures of an English Bulldog in different situations. When hovered over the pictures with the mouse, 
     the picture zooms in.
     ![Screenshot 2023-01-03 142014](https://user-images.githubusercontent.com/109954194/210365195-47f673c2-bc2f-4b0e-a22b-80cb49e2c9f8.png)
 
     
     
 * ### Why do we love english bulldogs
-  * The link leads to the the second section of the main page where a short description of this dog breed is placed.
-    There is also a video link to youtube which shows everyday life situations with english Bulldogs. 
+  * This is the second section of the main page where a short description of this dog breed is placed.
+  * There is also a video link to youtube which shows everyday life situations with english Bulldogs. 
   * The user can get informed here about the breed in case he/she wants to get an English Bulldog or simply acquire knowledge about the breed.  
 
 ![Screenshot (58)](https://user-images.githubusercontent.com/109954194/210435178-9e96ea28-f2fe-4c3d-9dce-d3a188d4df86.png)
