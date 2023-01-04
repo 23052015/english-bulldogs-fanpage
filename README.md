@@ -42,9 +42,14 @@ Here the user will be able to find interesting content about the breed English B
 
 
 * ### Registration and quiz
-  * By clicking on this link the user opens a new page in the same tab. On this page the user can register himself as an official fan
+  * By clicking on this link in the navigation the user opens a new page in the same tab. On this page the user can register himself as an official fan
     and participate in the quiz where he can win a free t-shirt by answering the questions correctly and clicking on submit button. 
   * All input fields must be filled out in order to get registered as a fan and to submit the quiz questions. 
+
+![Screenshot 2023-01-04 121725](https://user-images.githubusercontent.com/109954194/210544849-e5b08c25-3c82-4549-b90e-8a91a5c7f114.png)
+![Screenshot 2023-01-04 121855](https://user-images.githubusercontent.com/109954194/210544875-469b0fb4-0881-4fbb-aed3-c4c9100bf22e.png)
+![Screenshot 2023-01-04 121922](https://user-images.githubusercontent.com/109954194/210544891-67b52781-c363-4425-9b41-236d1d453c8e.png)
+
 
     
 * ### Social media links
@@ -52,15 +57,22 @@ Here the user will be able to find interesting content about the breed English B
   * By clicking on the icon, the chosen social media platform is opened in a new tab. 
   * The user goal here is to get in touch with people who are also like English Bulldogs. 
 
+![Screenshot 2023-01-04 122236](https://user-images.githubusercontent.com/109954194/210544945-372a7379-e66d-47a1-a2b0-1cd3dac58219.png)
+
+
 ## Testing
   * I tested this page in Google Chrome, Microsoft Edge and Mozzila Firefox.
   * I confirmed that the website is responsive and looks nice on all standard devices. This was achieved by using devtools device toolbar.
   * I confirmed that the navigation all the section are readable and easy to understand. 
-  + I confirmed that the form is fully functional. E-mail input field accepts only emails and all the input fields must be filled out in order to submit the form. 
+  * I confirmed that the form is fully functional. E-mail input field accepts only emails and all the input fields must be filled out in order to submit the form. 
+
+
 * ### Bugs 
-   #### Solved Bugs
-  ** A major problem occured while trying to make the pictures(section1/Home) responsive. Especcialy the pictures were very hard to adjust to all devices. 
-  ** This was solved by using the flex property. 
+   ### Solved Bugs
+  * A major problem occured while trying to make the pictures(section1/Home) responsive. Especcialy the pictures were very hard to adjust to all devices. 
+  * This was solved by using the flex property. 
+
+
 * ### Validator Testing
     * HTML
         * No errors were detected when passing through the official W3C validator.
@@ -68,6 +80,9 @@ Here the user will be able to find interesting content about the breed English B
         * No errors were found when passing through the official Jigsaw validator. 
     * Accessibility
         * The accessibility is confirmed by running the website through lighthouse in devtools.
+
+![Screenshot 2023-01-04 122524](https://user-images.githubusercontent.com/109954194/210545157-adfa76e1-8061-4d33-8d7a-6cdd14bb5cb7.png)
+
 
 * ### Unfixed Bugs
     * No unfixed bugs. 
@@ -92,5 +107,5 @@ Here the user will be able to find interesting content about the breed English B
 
 
 * ### Media
-    * The T-shirt image on the page "registration and quiz" is dwonloaded from [English Bulldog](https://www.pexels.com/photo/serious-bulldog-sitting-on-soft-sofa-5288556/)
+    * The T-shirt image on the page "registration and quiz" is dwonloaded from [English Bulldog](https://www.pexels.com/photo/serious-bulldog-sitting-on-soft-sofa- 5288556/)
 
