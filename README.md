@@ -115,5 +115,5 @@ Here the user will be able to find interesting content about the English Bulldog
 
 
 * ### Media
-    * The T-shirt image on the page "registration and quiz" is dwonloaded from [English Bulldog](https://www.pexels.com/photo/serious-bulldog-sitting-on-soft-sofa- 5288556/)
+    * The T-shirt image on the page "registration and quiz" is downloaded from [English Bulldog](https://www.pexels.com/photo/serious-bulldog-sitting-on-soft-sofa- 5288556/)
 
